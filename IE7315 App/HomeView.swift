@@ -15,7 +15,11 @@ struct HomeView: View {
                 Spacer()
                 Image("logo")
                 Spacer()
-                Image(systemName: "house")
+                VStack(alignment: .leading) {
+                    Image(systemName: "house")
+                    Text("Saturday")
+                    Text("November 6, 2021")
+                }
                 Spacer()
             }
             Spacer()
