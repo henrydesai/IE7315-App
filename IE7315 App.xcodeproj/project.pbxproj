@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA42D812273631A3003A0479 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA42D811273631A3003A0479 /* HomeView.swift */; };
+		BA7C9FE82738570E002FFB7C /* LogTestIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C9FE72738570E002FFB7C /* LogTestIntro.swift */; };
 		BA98AABD2734F383002EA090 /* IE7315_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98AABC2734F383002EA090 /* IE7315_AppApp.swift */; };
 		BA98AABF2734F383002EA090 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98AABE2734F383002EA090 /* ContentView.swift */; };
 		BA98AAC12734F384002EA090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA98AAC02734F384002EA090 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		BA42D811273631A3003A0479 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BA7C9FE72738570E002FFB7C /* LogTestIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTestIntro.swift; sourceTree = "<group>"; };
 		BA98AAB92734F383002EA090 /* IE7315 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IE7315 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA98AABC2734F383002EA090 /* IE7315_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IE7315_AppApp.swift; sourceTree = "<group>"; };
 		BA98AABE2734F383002EA090 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA7C9FE6273856E4002FFB7C /* LogTest */ = {
+			isa = PBXGroup;
+			children = (
+				BA7C9FE72738570E002FFB7C /* LogTestIntro.swift */,
+			);
+			path = LogTest;
+			sourceTree = "<group>";
+		};
 		BA98AAB02734F383002EA090 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +106,7 @@
 		BA98AABB2734F383002EA090 /* IE7315 App */ = {
 			isa = PBXGroup;
 			children = (
+				BA7C9FE6273856E4002FFB7C /* LogTest */,
 				BA98AABC2734F383002EA090 /* IE7315_AppApp.swift */,
 				BA98AABE2734F383002EA090 /* ContentView.swift */,
 				BA42D811273631A3003A0479 /* HomeView.swift */,
@@ -263,6 +274,7 @@
 				BA42D812273631A3003A0479 /* HomeView.swift in Sources */,
 				BA98AABF2734F383002EA090 /* ContentView.swift in Sources */,
 				BA98AABD2734F383002EA090 /* IE7315_AppApp.swift in Sources */,
+				BA7C9FE82738570E002FFB7C /* LogTestIntro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +435,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IE7315 App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZ7GHSD28E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -451,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IE7315 App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZ7GHSD28E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
