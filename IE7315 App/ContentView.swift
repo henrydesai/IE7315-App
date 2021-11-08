@@ -17,17 +17,17 @@ struct ContentView: View {
                     Text("Home")
                     Image(systemName: "house")
                   }
-            Text("This is about us screen")
+            LogTestIntro()
                 .tabItem {
                     Text("Test")
                     Image(systemName: "pencil")
                 }
-            Text("This is contct us screen")
+            Text("This will be the history screen")
                 .tabItem {
                     Text("History")
                     Image(systemName: "book")
                 }
-            Text("This is the Profile Screen")
+            Text("This will be the Profile Screen")
                 .tabItem {
                     Text("Profile")
                     Image(systemName: "person")

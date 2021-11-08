@@ -16,6 +16,7 @@
 		BA98AACE2734F384002EA090 /* IE7315_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98AACD2734F384002EA090 /* IE7315_AppTests.swift */; };
 		BA98AAD82734F384002EA090 /* IE7315_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98AAD72734F384002EA090 /* IE7315_AppUITests.swift */; };
 		BA98AADA2734F384002EA090 /* IE7315_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98AAD92734F384002EA090 /* IE7315_AppUITestsLaunchTests.swift */; };
+		BAB6D9C12738C4BE003BAB4B /* LogTestPainLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6D9C02738C4BE003BAB4B /* LogTestPainLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		BA98AAD32734F384002EA090 /* IE7315 AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IE7315 AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA98AAD72734F384002EA090 /* IE7315_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IE7315_AppUITests.swift; sourceTree = "<group>"; };
 		BA98AAD92734F384002EA090 /* IE7315_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IE7315_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAB6D9C02738C4BE003BAB4B /* LogTestPainLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTestPainLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				BA7C9FE72738570E002FFB7C /* LogTestIntro.swift */,
+				BAB6D9C02738C4BE003BAB4B /* LogTestPainLevel.swift */,
 			);
 			path = LogTest;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				BA98AABF2734F383002EA090 /* ContentView.swift in Sources */,
 				BA98AABD2734F383002EA090 /* IE7315_AppApp.swift in Sources */,
 				BA7C9FE82738570E002FFB7C /* LogTestIntro.swift in Sources */,
+				BAB6D9C12738C4BE003BAB4B /* LogTestPainLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
