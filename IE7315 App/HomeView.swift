@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    
     var body: some View {
         VStack {
             Spacer()
@@ -17,8 +18,8 @@ struct HomeView: View {
                 Spacer()
                 VStack(alignment: .leading) {
                     Image(systemName: "house")
-                    Text("Saturday")
-                    Text("November 6, 2021")
+                    Text(getWeekDay())
+                    Text(getDate())
                 }
                 Spacer()
             }
@@ -50,6 +51,38 @@ struct HomeView: View {
             Spacer()
         }
     }
+    
+    func getDate() -> String {
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MMMM d, yyyy"
+        
+        return dateFormatter.string(from: date)
+    }
+    
+    func getWeekDay() -> String {
+        let day:Int = Calendar.current.component(.weekday, from: Date())
+        
+        switch(day) {
+        case 1:
+            return "Sunday"
+        case 2:
+            return "Monday"
+        case 3:
+            return "Tuesday"
+        case 4:
+            return "Wednesday"
+        case 5:
+            return "Thursday"
+        case 6:
+            return "Friday"
+        case 7:
+            return "Saturday"
+        default:
+            return "Merry Christmas!"
+        }
+    }
+    
 }
 
 struct HomeView_Previews: PreviewProvider {
