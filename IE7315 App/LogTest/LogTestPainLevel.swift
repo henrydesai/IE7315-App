@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct LogTestPainLevel: View {
+    
+    @State private var selectedPainLevel:Int = 0
+    
     var body: some View {
         VStack {
             Spacer()
@@ -22,12 +25,17 @@ struct LogTestPainLevel: View {
             }
             
             Spacer()
-            //Image
+            HStack {
+                Text("Selected Pain Level: ")
+                    .font(.headline)
+                Text(String(selectedPainLevel))
+                    .font(.largeTitle)
+            }
             
             Spacer()
             HStack {
                 Button {
-                    //Button Code
+                    selectedPainLevel = 1
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
@@ -42,7 +50,7 @@ struct LogTestPainLevel: View {
                 }
                 
                 Button {
-                    //Button Code
+                    selectedPainLevel = 2
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
@@ -57,7 +65,7 @@ struct LogTestPainLevel: View {
                 }
                 
                 Button {
-                    //Button Code
+                    selectedPainLevel = 3
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
@@ -72,7 +80,7 @@ struct LogTestPainLevel: View {
                 }
                 
                 Button {
-                    //Button Code
+                    selectedPainLevel = 4
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
@@ -87,7 +95,7 @@ struct LogTestPainLevel: View {
                 }
                 
                 Button {
-                    //Button Code
+                    selectedPainLevel = 5
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
@@ -106,7 +114,7 @@ struct LogTestPainLevel: View {
             
             HStack {
                 Button {
-                    //Button Code
+                    selectedPainLevel = 6
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
@@ -121,7 +129,7 @@ struct LogTestPainLevel: View {
                 }
                 
                 Button {
-                    //Button Code
+                    selectedPainLevel = 7
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
@@ -136,7 +144,7 @@ struct LogTestPainLevel: View {
                 }
                 
                 Button {
-                    //Button Code
+                    selectedPainLevel = 8
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
@@ -151,7 +159,7 @@ struct LogTestPainLevel: View {
                 }
                 
                 Button {
-                    //Button Code
+                    selectedPainLevel = 9
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
@@ -166,7 +174,7 @@ struct LogTestPainLevel: View {
                 }
                 
                 Button {
-                    //Button Code
+                    selectedPainLevel = 10
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
