@@ -204,16 +204,28 @@ struct LogTestPainLevel: View {
                 }
             }*/
             
-            NavigationLink {
-                //Next View
-            } label: {
+            if selectedPainLevel == 0 {
                 ZStack {
                     RoundedRectangle(cornerRadius: 20)
                         .frame(width:200, height:75)
-                        .foregroundColor(Color.blue)
+                        .foregroundColor(Color.gray)
                     Text("Submit\nPain Level")
                         .font(.title)
-                        .foregroundColor(Color.yellow)
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                }
+            } else {
+                NavigationLink {
+                    //Next View
+                } label: {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .frame(width:200, height:75)
+                            .foregroundColor(Color.blue)
+                        Text("Submit\nPain Level")
+                            .font(.title)
+                            .foregroundColor(Color.yellow)
+                    }
                 }
             }
 
