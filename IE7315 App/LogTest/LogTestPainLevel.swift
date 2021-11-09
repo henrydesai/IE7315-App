@@ -16,8 +16,9 @@ struct LogTestPainLevel: View {
             Spacer()
             HStack {
                 Spacer()
-                Text("1/5")
+                Text("Step\n1/5")
                     .font(.title)
+                    .multilineTextAlignment(.center)
                 Spacer()
                 Text("Your\nPain")
                     .font(.title)
